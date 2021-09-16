@@ -3,98 +3,103 @@
     "name": "Computer Science and Engineering",
     "link": "https://www.vlab.co.in/broad-area-computer-science-and-engineering"
   },
-    "lab": "Image processing",
-    "deployLab": true,
-    "phase": 2,
-    "collegeName": "IIITH",
-    "baseUrl": "cse19-iiith.vlabs.ac.in",
-    "introduction": "Welcome to the digital image processing virtual lab. The primary objective of this virtual lab is to supplement an undergraduate level course on image processing and enable students to understand the subject better. The lab consists of a diverse set of experiments with objective, theory, assessment, references and interactive examples which are designed to improve the clarity in understanding of the basic concepts. It is important that the student goes through the objectives and the underlying theory before carrying out the experiments to get maximum benefit. The lab is intended to help in clarifying concepts. It is not intented for learning how to write code to do image processing</br></br></br>The primary references (textbook) for the topics covered by the experiments are:</br></br>1. Digital Image Processing (3rd Edition), by Rafael C. Gonzalez and Richard E. Woods.</br>2. Fundamentals of digital image processing, by Anil K. Jain.</br></br></br>Before you start any of the experiments, make sure you read the notes below.</br></br>1. Each link on the right takes you to a set of experiments that is related to a specific topic. The experiments are designed to expose you to certain concepts. You are encouraged to carry out variants of the suggested experiments and learn from them.</br>Please make sure that you read the background material and experiment procedure before carrying out the experiments. Trying out the experiments before reading does not hurt, but having the background will help you understand the results better.",
-    "experiments": [
-        {
-            "name": "Distance and Connectivity",
-            "short-name": "distance-and-connectivity",
-            "repo": "https://github.com/virtual-labs/exp-distance-and-connectivity-iiith",
-            "tag": "v1.0.0",
-            "deploy": true
-        },
-        {
-            "name": "Image Arithmetic",
-            "short-name": "image-arithmetic",
-            "repo": "https://github.com/virtual-labs/exp-image-arithmetic-iiith",
-            "tag": "v1.0.0",
-            "deploy": true
-        },
-        {
-            "name": "Affine Transformation",
-            "short-name": "",
-            "repo": "https://github.com/virtual-labs/exp-affine-transformation-iiith",
-            "tag": "v1.0.0",
-            "deploy": true
-        },
-        {
-            "name": "Point Operations",
-            "short-name": "point-operations",
-            "repo": "https://github.com/virtual-labs/exp-point-operations-iiith",
-            "tag": "v1.0.0",
-            "deploy": true
-        },
-        {
-            "name": "Neighbourhood Operations",
-            "short-name": "neighbourhood-operations",
-            "repo": "https://github.com/virtual-labs/exp-neighbourhood-operations-iiith",
-            "tag": "v1.0.0",
-            "deploy": true
-        },
-        {
-            "name": "Image Histogram",
-            "short-name": "image-histogram",
-            "repo": "https://github.com/virtual-labs/exp-image-histogram-iiith",
-            "tag": "v1.0.0",
-            "deploy": true
-        },
-        {
-            "name": "Fourier Transform",
-            "short-name": "fourier-transform",
-            "repo": "https://github.com/virtual-labs/exp-fourier-transform-iiith",
-            "tag": "v1.0.0",
-            "deploy": true
-        },
-        {
-            "name": "Color Image Processing",
-            "short-name": "color-image-processing",
-            "repo": "https://github.com/virtual-labs/exp-color-image-processing-iiith",
-            "tag": "v1.0.0",
-            "deploy": true
-        },
-        {
-            "name": "Morphological Operations",
-            "short-name": "morphological-operations",
-            "repo": "https://github.com/virtual-labs/exp-morphological-operations-iiith",
-            "tag": "v1.0.0",
-            "deploy": true
-        },
-        {
-            "name": "Image Segmentation",
-            "short-name": "image-segmentation",
-            "repo": "https://github.com/virtual-labs/exp-image-segmentation-iiith",
-            "tag": "v1.0.0",
-            "deploy": true
-        },
-        {
-            "name": "Image Processing Test Bench",
-            "short-name": "image-processing-test-bench",
-            "repo": "https://github.com/virtual-labs/exp-image-processing-test-bench-iiith",
-            "tag": "v1.0.0",
-            "deploy": true
-        }
-    ],
-    "targetAudience": {
-        "UG": ["B. Tech./ B.E in Computer Science & Information Technology"],
-        "PG": ["M. Tech in Computer Science"]
+  "lab": "Image processing",
+  "deployLab": true,
+  "phase": 2,
+  "collegeName": "IIITH",
+  "baseUrl": "cse19-iiith.vlabs.ac.in",
+  "introduction": "Welcome to the digital image processing virtual lab. The primary objective of this virtual lab is to supplement an undergraduate level course on image processing and enable students to understand the subject better. The lab consists of a diverse set of experiments with objective, theory, assessment, references and interactive examples which are designed to improve the clarity in understanding of the basic concepts. It is important that the student goes through the objectives and the underlying theory before carrying out the experiments to get maximum benefit. The lab is intended to help in clarifying concepts. It is not intented for learning how to write code to do image processing</br></br></br>The primary references (textbook) for the topics covered by the experiments are:</br></br>1. Digital Image Processing (3rd Edition), by Rafael C. Gonzalez and Richard E. Woods.</br>2. Fundamentals of digital image processing, by Anil K. Jain.</br></br></br>Before you start any of the experiments, make sure you read the notes below.</br></br>1. Each link on the right takes you to a set of experiments that is related to a specific topic. The experiments are designed to expose you to certain concepts. You are encouraged to carry out variants of the suggested experiments and learn from them.</br>Please make sure that you read the background material and experiment procedure before carrying out the experiments. Trying out the experiments before reading does not hurt, but having the background will help you understand the results better.",
+  "experiments": [
+    {
+      "name": "Distance and Connectivity",
+      "short-name": "distance-and-connectivity",
+      "repo": "https://github.com/virtual-labs/exp-distance-and-connectivity-iiith",
+      "tag": "v1.0.0",
+      "deploy": true
     },
-    "objective": "",
-    "courseAlignment": {
-        "description": "",
-        "universities": ["This virtual lab is aligned with an introductory course on Image processing, which is usually offered as a first level elective in many curricula."]
+    {
+      "name": "Image Arithmetic",
+      "short-name": "image-arithmetic",
+      "repo": "https://github.com/virtual-labs/exp-image-arithmetic-iiith",
+      "tag": "v1.0.0",
+      "deploy": true
+    },
+    {
+      "name": "Affine Transformation",
+      "short-name": "",
+      "repo": "https://github.com/virtual-labs/exp-affine-transformation-iiith",
+      "tag": "v1.0.1",
+      "deploy": true
+    },
+    {
+      "name": "Point Operations",
+      "short-name": "point-operations",
+      "repo": "https://github.com/virtual-labs/exp-point-operations-iiith",
+      "tag": "v1.0.0",
+      "deploy": true
+    },
+    {
+      "name": "Neighbourhood Operations",
+      "short-name": "neighbourhood-operations",
+      "repo": "https://github.com/virtual-labs/exp-neighbourhood-operations-iiith",
+      "tag": "v1.0.0",
+      "deploy": true
+    },
+    {
+      "name": "Image Histogram",
+      "short-name": "image-histogram",
+      "repo": "https://github.com/virtual-labs/exp-image-histogram-iiith",
+      "tag": "v1.0.0",
+      "deploy": true
+    },
+    {
+      "name": "Fourier Transform",
+      "short-name": "fourier-transform",
+      "repo": "https://github.com/virtual-labs/exp-fourier-transform-iiith",
+      "tag": "v1.0.0",
+      "deploy": true
+    },
+    {
+      "name": "Color Image Processing",
+      "short-name": "color-image-processing",
+      "repo": "https://github.com/virtual-labs/exp-color-image-processing-iiith",
+      "tag": "v1.0.0",
+      "deploy": true
+    },
+    {
+      "name": "Morphological Operations",
+      "short-name": "morphological-operations",
+      "repo": "https://github.com/virtual-labs/exp-morphological-operations-iiith",
+      "tag": "v1.0.0",
+      "deploy": true
+    },
+    {
+      "name": "Image Segmentation",
+      "short-name": "image-segmentation",
+      "repo": "https://github.com/virtual-labs/exp-image-segmentation-iiith",
+      "tag": "v1.0.0",
+      "deploy": true
+    },
+    {
+      "name": "Image Processing Test Bench",
+      "short-name": "image-processing-test-bench",
+      "repo": "https://github.com/virtual-labs/exp-image-processing-test-bench-iiith",
+      "tag": "v1.0.0",
+      "deploy": true
     }
+  ],
+  "targetAudience": {
+    "UG": ["B. Tech./ B.E in Computer Science & Information Technology"],
+    "PG": ["M. Tech in Computer Science"]
+  },
+  "objective": "",
+  "courseAlignment": {
+    "description": "",
+    "universities": [
+      "This virtual lab is aligned with an introductory course on Image processing, which is usually offered as a first level elective in many curricula."
+    ]
+  },
+  "exp_name": "Image Processing Test Bench",
+  "exp_short_name": "image-processing-test-bench",
+  "version": "v0.3.0"
 }
