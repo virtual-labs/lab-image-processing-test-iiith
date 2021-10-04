@@ -78,14 +78,14 @@
       "short-name": "image-segmentation",
       "repo": "https://github.com/virtual-labs/exp-image-segmentation-iiith",
       "tag": "v1.0.1",
-      "deploy": false
+      "deploy": true
     },
     {
       "name": "Image Processing Test Bench",
       "short-name": "image-processing-test-bench",
       "repo": "https://github.com/virtual-labs/exp-image-processing-test-bench-iiith",
       "tag": "v1.0.1",
-      "deploy": false
+      "deploy": true
     }
   ],
   "targetAudience": {
@@ -101,5 +101,5 @@
   },
   "exp_name": "Image Processing Test Bench",
   "exp_short_name": "image-processing-test-bench",
-  "version": "v0.5.0"
+  "version": "v0.6.0"
 }
