@@ -28,7 +28,7 @@
       "name": "Affine Transformation",
       "short-name": "",
       "repo": "https://github.com/virtual-labs/exp-affine-transformation-iiith",
-      "tag": "v1.0.2",
+      "tag": "v1.0.1",
       "deploy": true
     },
     {
@@ -101,5 +101,5 @@
   },
   "exp_name": "Image Processing Test Bench",
   "exp_short_name": "image-processing-test-bench",
-  "version": "v0.7.0"
+  "version": "v0.8.0"
 }
