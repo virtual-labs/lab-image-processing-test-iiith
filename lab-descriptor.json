@@ -14,7 +14,7 @@
       "name": "Distance and Connectivity",
       "short-name": "distance-and-connectivity",
       "repo": "https://github.com/virtual-labs/exp-distance-and-connectivity-iiith",
-      "tag": "v1.0.2",
+      "tag": "v1.0.3",
       "deploy": true
     },
     {
@@ -49,21 +49,21 @@
       "name": "Image Histogram",
       "short-name": "image-histogram",
       "repo": "https://github.com/virtual-labs/exp-image-histogram-iiith",
-      "tag": "v1.0.2",
+      "tag": "v1.0.3",
       "deploy": true
     },
     {
       "name": "Fourier Transform",
       "short-name": "fourier-transform",
       "repo": "https://github.com/virtual-labs/exp-fourier-transform-iiith",
-      "tag": "v1.0.2",
+      "tag": "v1.0.3",
       "deploy": true
     },
     {
       "name": "Color Image Processing",
       "short-name": "color-image-processing",
       "repo": "https://github.com/virtual-labs/exp-color-image-processing-iiith",
-      "tag": "v1.0.2",
+      "tag": "v1.0.3",
       "deploy": true
     },
     {
@@ -77,14 +77,14 @@
       "name": "Image Segmentation",
       "short-name": "image-segmentation",
       "repo": "https://github.com/virtual-labs/exp-image-segmentation-iiith",
-      "tag": "v1.0.2",
+      "tag": "v1.0.3",
       "deploy": true
     },
     {
       "name": "Image Processing Test Bench",
       "short-name": "image-processing-test-bench",
       "repo": "https://github.com/virtual-labs/exp-image-processing-test-bench-iiith",
-      "tag": "v1.0.1",
+      "tag": "v1.0.2",
       "deploy": true
     }
   ],
@@ -101,5 +101,5 @@
   },
   "exp_name": "Image Processing Test Bench",
   "exp_short_name": "image-processing-test-bench",
-  "version": "v0.10.0"
+  "version": "v0.11.0"
 }
