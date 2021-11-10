@@ -14,70 +14,70 @@
       "name": "Distance and Connectivity",
       "short-name": "distance-and-connectivity",
       "repo": "https://github.com/virtual-labs/exp-distance-and-connectivity-iiith",
-      "tag": "v1.0.1",
+      "tag": "v1.0.2",
       "deploy": true
     },
     {
       "name": "Image Arithmetic",
       "short-name": "image-arithmetic",
       "repo": "https://github.com/virtual-labs/exp-image-arithmetic-iiith",
-      "tag": "v1.0.1",
+      "tag": "v1.0.2",
       "deploy": true
     },
     {
       "name": "Affine Transformation",
       "short-name": "affine-transformation",
       "repo": "https://github.com/virtual-labs/exp-affine-transformation-iiith",
-      "tag": "v1.0.2",
+      "tag": "v1.0.3",
       "deploy": true
     },
     {
       "name": "Point Operations",
       "short-name": "point-operations",
       "repo": "https://github.com/virtual-labs/exp-point-operations-iiith",
-      "tag": "v1.0.1",
+      "tag": "v1.0.2",
       "deploy": true
     },
     {
       "name": "Neighbourhood Operations",
       "short-name": "neighbourhood-operations",
       "repo": "https://github.com/virtual-labs/exp-neighbourhood-operations-iiith",
-      "tag": "v1.0.1",
+      "tag": "v1.0.2",
       "deploy": true
     },
     {
       "name": "Image Histogram",
       "short-name": "image-histogram",
       "repo": "https://github.com/virtual-labs/exp-image-histogram-iiith",
-      "tag": "v1.0.1",
+      "tag": "v1.0.2",
       "deploy": true
     },
     {
       "name": "Fourier Transform",
       "short-name": "fourier-transform",
       "repo": "https://github.com/virtual-labs/exp-fourier-transform-iiith",
-      "tag": "v1.0.1",
+      "tag": "v1.0.2",
       "deploy": true
     },
     {
       "name": "Color Image Processing",
       "short-name": "color-image-processing",
       "repo": "https://github.com/virtual-labs/exp-color-image-processing-iiith",
-      "tag": "v1.0.1",
+      "tag": "v1.0.2",
       "deploy": true
     },
     {
       "name": "Morphological Operations",
       "short-name": "morphological-operations",
       "repo": "https://github.com/virtual-labs/exp-morphological-operations-iiith",
-      "tag": "v1.0.1",
+      "tag": "v1.0.2",
       "deploy": true
     },
     {
       "name": "Image Segmentation",
       "short-name": "image-segmentation",
       "repo": "https://github.com/virtual-labs/exp-image-segmentation-iiith",
-      "tag": "v1.0.1",
+      "tag": "v1.0.2",
       "deploy": true
     },
     {
@@ -101,5 +101,5 @@
   },
   "exp_name": "Image Processing Test Bench",
   "exp_short_name": "image-processing-test-bench",
-  "version": "v0.9.0"
+  "version": "v0.10.0"
 }
