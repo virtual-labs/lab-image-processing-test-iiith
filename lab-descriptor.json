@@ -14,7 +14,7 @@
       "name": "Distance and Connectivity",
       "short-name": "distance-and-connectivity",
       "repo": "https://github.com/virtual-labs/exp-distance-and-connectivity-iiith",
-      "tag": "v1.0.3",
+      "tag": "v1.0.4",
       "deploy": true
     },
     {
@@ -101,5 +101,5 @@
   },
   "exp_name": "Image Processing Test Bench",
   "exp_short_name": "image-processing-test-bench",
-  "version": "v0.12.0"
+  "version": "v0.13.0"
 }
