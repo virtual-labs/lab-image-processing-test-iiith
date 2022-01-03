@@ -15,7 +15,7 @@
       "name": "Image Arithmetic",
       "short-name": "image-arithmetic",
       "repo": "https://github.com/virtual-labs/exp-image-arithmetic-iiith",
-      "tag": "v1.0.2",
+      "tag": "v1.0.4",
       "deploy": true
     },
     {
@@ -88,5 +88,5 @@
   },
   "exp_name": "Image Processing Test Bench",
   "exp_short_name": "image-processing-test-bench",
-  "version": "v0.17.0"
+  "version": "v0.18.0"
 }
