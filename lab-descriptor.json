@@ -6,7 +6,6 @@
   },
   "lab": "Image processing",
   "lab_display_name": "Image processing",
-  "deployLab": true,
   "phase": 2,
   "collegeName": "IIITH",
   "baseUrl": "cse19-iiith.vlabs.ac.in",
