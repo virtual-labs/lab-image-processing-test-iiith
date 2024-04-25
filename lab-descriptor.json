@@ -1,7 +1,8 @@
 {
   "broadArea": {
     "name": "Computer Science and Engineering",
-    "link": "https://www.vlab.co.in/broad-area-computer-science-and-engineering"
+    "link": "https://www.vlab.co.in/broad-area-computer-science-and-engineering",
+    "code": "CSE"
   },
   "lab": "Image processing",
   "lab_display_name": "Image processing",
@@ -85,8 +86,6 @@
     "universities": [
       "This virtual lab is aligned with an introductory course on Image processing, which is usually offered as a first level elective in many curricula."
     ]
-  },
-  "exp_name": "Image Processing Test Bench",
-  "exp_short_name": "image-processing-test-bench",
-  "version": "v0.18.0"
+  }
+  
 }
