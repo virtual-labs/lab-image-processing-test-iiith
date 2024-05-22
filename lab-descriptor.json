@@ -50,7 +50,7 @@
       "name": "Fourier Transform",
       "short-name": "fourier-transform",
       "repo": "https://github.com/virtual-labs/exp-fourier-transform-iiith",
-      "tag": "v1.0.5",
+      "tag": "v1.0.6",
       "deploy": true
     },
     {
