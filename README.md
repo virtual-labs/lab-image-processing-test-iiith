@@ -10,7 +10,8 @@ Follow the steps below to clone the necessary repositories, make required change
     git clone https://github.com/virtual-labs/ph3-lab-mgmt.git
     ```
 
-2. If required, make changes to the lab-descriptor.json in the lab repository to update the experiment repositories and their respective tags (version).
+2. Only one [image-airthmetic-test](https://github.com/virtual-labs/exp-image-arithmetic-test-iiith) experiment is part of the lab and its tag (version) should be modified to the latest release of the repo in the `lab-descriptor.json` file in the cloned lab directory.
+   
 3. Navigate to the lab management repository and install all necessary dependencies:
     ```
     cd ph3-lab-mgmt
@@ -19,6 +20,14 @@ Follow the steps below to clone the necessary repositories, make required change
 4. Use the following command to build the lab:
     ```
     node main.js buildLab --src=../lab-image-processing-test-iiith
+    ```
+5. Navigate to the `List of experiments.html` file in the build folder in the lab directory and replace the href of the list of experiments from the base url to the relative path
+    ```
+    cd ../lab-image-processing-test-iiith/build
+    ```
+    ```diff
+    -<a href="https://cse19-test-iiith.vlabs.ac.in/exp/image-arithmetic/">Image Arithmetic</a>
+    +<a href="./exp/image-arithmetic/">Image Arithmetic</a>
     ```
 
 This should create a build folder in the lab directory with all the files that are ready to be deployed.
@@ -38,13 +47,12 @@ To use Docker for containerization, follow the official Docker [installation doc
 ### Building and Running the Docker Image
 1. Navigate to the lab directory containing the Dockerfile and run the following command to build the Docker image:
     ```
-    cd ../lab-image-processing-test-iiith
     docker build -t image-processing-lab-image .
     ```
 2. After building the image, run the Docker container using the following command:
     ```
-    docker run -d --name image-processing-lab -p 80:80 image-processing-lab-image
+    docker run -d --name image-processing-lab -p 1234:80 image-processing-lab-image
     ```
 
 ### Usage Instructions
-Once the Docker container is running, the application can be accessed by navigating to `http://localhost` in any web browser. This will load the main interface to interact with the various experiments available in the lab.
+Once the Docker container is running, the application can be accessed by navigating to `http://localhost:1234` in any web browser. This will load the main interface to interact with the various experiments available in the lab.
